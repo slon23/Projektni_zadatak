@@ -221,7 +221,7 @@ footer img {
 
 .contact-form {
     max-width: 600px;
-    margin: 0 auto;
+    margin: 0;
 }
 
 .form-group {
@@ -277,6 +277,7 @@ footer img {
         flex: 100%;
     }
     .contact-form {
+	margin: 0 auto;  /* Center on mobile */
         padding: 0 10px;
     }
 }
