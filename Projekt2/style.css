@@ -1,0 +1,49 @@
+/* Body */
+body, html {
+	font-family:'Times New Roman', Times, serif;
+	margin: 0;
+	font-size: 14px;
+}
+/* Hero banner */
+header {
+	display: block;
+	width: 100%;
+}
+.hero-banner {
+    background-image: url("images/hero_banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 500px;
+}
+
+/* Navigacija*/
+nav {
+    background-color: #6e6e6e;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #ddd;
+    color: black;
+}
