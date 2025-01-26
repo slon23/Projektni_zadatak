@@ -1,0 +1,131 @@
+/* Body */
+body, html {
+	font-family:'Times New Roman', Times, serif;
+	margin: 0;
+	font-size: 14px;
+}
+/* Hero banner */
+header {
+	display: block;
+	width: 100%;
+}
+.hero-banner {
+    background-image: url("images/hero_banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 500px;
+}
+
+/* Navigacija*/
+nav {
+    background-color: #6e6e6e;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #ddd;
+    color: black;
+}
+/* Main content */
+main {
+    max-width: 1200px;
+    text-decoration: none;
+}
+h1,h2 {
+    color: #333;
+    margin: 10px;
+    margin-left: 15px;
+    font-size: 1.8em;
+}
+
+h2 {
+    color: #666;
+    font-size: 1.4em;
+}
+
+p {
+    line-height: 1.6em;
+    margin: 12px;
+    letter-spacing: 1px;
+}
+
+figure {
+    padding: 0.5em;
+    margin: 0px 10px 5px 10px;
+    text-align: center;
+    float: left;
+    width: 35%;
+    border: 1px grey;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+figcaption {
+    color: #666;
+    font-style: italic;
+    font-size: 90%;
+}
+@media screen and (max-width: 900px) {
+	figure {
+		width: 90%;
+		margin: 1em;
+	}
+}
+main a {
+	color: #27318b;
+	text-decoration: none;
+}
+.social-media {
+    margin-bottom: 15px;
+}
+
+.social-media img {
+    width: 32px;
+    height: 32px;
+    margin: 0 10px;
+}
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0.1em;
+    bottom: 0;
+    width: 100%;
+    clear: both;
+}
+
+
+footer p {
+    margin: 5px;
+}
+footer img {
+    width: 20px;
+    vertical-align: middle;
+    margin-left: 5px;
+}
